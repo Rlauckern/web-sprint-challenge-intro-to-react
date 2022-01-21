@@ -22,6 +22,9 @@ const kf = keyframes`
     color: orange;
     border: 2px red;
   }
+  h2:hover {
+    color: #7e05f7;
+  }
   h3 {
     color: #0DA85A;
   }
