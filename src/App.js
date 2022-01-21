@@ -28,6 +28,13 @@ const kf = keyframes`
   h3 {
     color: #0DA85A;
   }
+  .App {
+    text-align: center;
+  }
+  .Header {
+    color: #443e3e;
+    text-shadow: 5px 5px 5px #fff;
+  }
 
   transform: scale(2); // start of animation
   opacity: 0; // start of animation;

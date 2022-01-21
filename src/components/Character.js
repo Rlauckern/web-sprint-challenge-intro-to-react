@@ -1,9 +1,3 @@
-// Write your Character component here
-import react from "react"
-
-
-
-
 const Character = props => {
     const { info } = props
     return (
