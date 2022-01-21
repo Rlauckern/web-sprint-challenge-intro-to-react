@@ -40,6 +40,10 @@ const kf = keyframes`
   .Header {
     color: #443e3e;
     text-shadow: 5px 5px 5px #fff;
+
+    :hover {
+      color: #a60889;
+    }
   }
 
   transform: scale(2); // start of animation
