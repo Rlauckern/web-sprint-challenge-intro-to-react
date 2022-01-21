@@ -21,12 +21,18 @@ const kf = keyframes`
   h2 {
     color: orange;
     border: 2px red;
+
+    :hover {
+      color: #7e05f7;
   }
-  h2:hover {
-    color: #7e05f7;
+  
   }
   h3 {
     color: #0DA85A;
+
+    :hover {
+      color: #4491e3;
+    }
   }
   .App {
     text-align: center;
