@@ -16,7 +16,7 @@ const kf = keyframes`
   const StyledApp = styled.div`
   display: flex;
   flex-direction: column;
-  border: 3px dotted #0DA85A;
+  border: 3px solid #0DA85A;
 
   h2 {
     color: orange;
@@ -28,7 +28,7 @@ const kf = keyframes`
 
   transform: scale(2); // start of animation
   opacity: 0; // start of animation;
-  animation: ${kf} 3s ease-in-out forwards;
+  animation: ${kf} 2s ease-in-out forwards;
 `
 
 const App = () => {
